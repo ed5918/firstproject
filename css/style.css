@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.div ul{
+    display:flex;
+    height: 6vw;
+    background-color: #000;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-left: 100px;
+    border-bottom: 1px solid #fff;
+    /*position: fixed; fixing the navigation bar
+    top: 0;
+    width: 100%;*/ 
+    
+}
+a:hover{
+    color: grey;
+}
+    
+div ul li a{
+    color:#fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 50px;
+    
+    /*padding-bottom: 10px;
+    padding-left: 100px;*/
+}
+.section {
+    display: flex;
+    height: 600px;
+    background-color: #000;
+    justify-content:center;
+}
+
+.sec {
+    height: 500px;
+}
+
+ 
+.sec ul{
+    display: flex;
+    height:50%;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: flex-end;
+    
+    
+    /*background-color: #fff;*/
+}
+
+.sec ul li{
+     flex-grow: 1;
+     border:3px solid #000;
+     background-color: #000;
+     padding:40px;
+     margin: 0 20px;
+     margin-bottom: 28px
+    /*border: solid #000;*/
+    }
+  
+.share {
+    /*display: flex;*/
+    justify-content:center;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*h3{
+    text-align:center;
+}*/
+
+/*SOCIAL MEDIA ICONS*/
+
+
+/*.fac {
+  display: flex;
+ 
+}*/
+
+.fac a{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin:5px 3px;
+  border-radius: 50%;
+    
+}
+
+/*.fa:hover {
+    opacity: 0.7;
+}*/
+
+.fa-facebook {
+  background: #fff;
+  color: black;
+}   
+
+.fa-linkedin {
+  background: #fff;
+  color: black;
+}
+
+.fa-google {
+  background: #fff;
+  color: black;
+}
+
+
+/*.sec ul li:nth-child(4) {*/
+/*    margin-top: 300px;*/
+/*}*/
+.sec ul li a{
+   
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 100px;
+    color: #fff;
+}
+
+/*FOOTER*/
+.footer ul{
+    display:flex;
+    height: 20vw;
+    background-color: #000;
+    justify-content:center;
+    padding-top: 30px;
+    
+}
+.footer ul li a{
+    color:#fff;
+    font-family: serif;
+    margin-left: 100px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+form i
+/* products page*/
+.products{
+    display: flex;
+    height:400px;
+    justify-content:space-between;
+    margin: 8px;
+}
+.products2{
+    display: flex;
+    height:400px;
+    justify-content:space-between;
+    margin: 8px;
+}
+.products3 ul {
+     display: flex;
+     font-family: 'Pontano Sans', sans-serif;
+     font-size:20px;
+     
+}
+.products3 ul li{
+    flex-grow: 1;
+     
+     padding:40px;
+     margin: 0 20px;
+     margin-bottom: 28px;
+}
+.products3 ul{
+    display: flex;
+    height:50%;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: flex-end;
+    
+}
+    
+/*INSPIRATION PAGE*/
+
+
+
+.products5{
+    display: flex;
+    height:400px;
+    justify-content:space-between;
+    margin: 8px;
+}
+
+/* WORLD OF KITCHENS*/
+
+.wok{
+    display: flex;
+    font-family: serif;
+    height:100px;
+    justify-content:center;
+    padding-top: 40px;
+    margin: 1px;
+    
+    }
+
+.wok-one ul{
+    display: flex;
+    height:50%;
+    list-style-type: none;
+    justify-content:space-around;
+    align-items: flex-end;
+    font-family: 'Spicy Rice', cursive;
+    margin: 10px;
+    
+}
+   
